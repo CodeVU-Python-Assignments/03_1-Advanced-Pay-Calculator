@@ -13,6 +13,7 @@ def test_payCalculator_prints_error_withNonNumericHoursBonus(capfd, monkeypatch)
     out, err = capfd.readouterr()
     expected = 'Error, please enter numeric input\n'
     assert out == expected
+
 def test_payCalculator_prints_error_withNonNumericPayBonus(capfd, monkeypatch):
     rate = 'bljhkjbbj'
     hours = randint(1, 100)
