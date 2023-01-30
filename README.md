@@ -18,11 +18,14 @@ Pay: 475.0
 ```
 
 ## How to test
-Run pytest. You want 2/4 tests to pass. The next two tests are for the next assignment!
+Run pytest. You want 2/2 tests to pass.
 
 # Optional Assignment
 After finishing the first assignment, rewrite your pay program using try and except.
 This way your program handles non-numeric input gracefully by printing a message and exiting the program. 
+
+To test the optional test run `pytest optional.py`
+You'll want 2/2 tests to pass. (these are different tests!)
 
 ## Desired Output
 The following shows two executions of the program:
